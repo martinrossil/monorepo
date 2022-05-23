@@ -1,0 +1,23 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "Mono repo test with Turborepo support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinrossil/monorepo.git"
+  },
+  "keywords": [
+    "monorepo",
+    "turborepo"
+  ],
+  "author": "Martin Rossil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinrossil/monorepo/issues"
+  },
+  "homepage": "https://github.com/martinrossil/monorepo#readme"
+}
