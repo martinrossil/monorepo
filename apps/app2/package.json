@@ -1,0 +1,19 @@
+{
+    "name": "app2",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "test": "echo test app2 && exit 0",
+        "lint": "eslint **/*.ts",
+        "tsc": "tsc --noEmit",
+        "build": "echo build app2 && exit 0"
+    },
+    "dependencies": {
+        "c": "*",
+        "a": "*",
+        "b": "*"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    }
+}
