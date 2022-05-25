@@ -1,0 +1,19 @@
+{
+    "name": "b",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "scripts": {
+        "test": "web-test-runner --node-resolve --coverage",
+        "lint": "eslint **/*.ts",
+        "tsc": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/mocha": "^9.1.1",
+        "@web/dev-server-esbuild": "^0.3.0",
+        "@web/test-runner": "^0.13.28",
+        "chai": "npm:@esm-bundle/chai@^4.3.4-fix.0",
+        "typescript": "^4.6.4"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "a",
+    "version": "1.0.0",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "scripts": {
+        "test": "echo test a && exit 0",
+        "lint": "eslint **/*.ts",
+        "tsc": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "b": "*",
+        "typescript": "^4.6.4"
+    }
+}

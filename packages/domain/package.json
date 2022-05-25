@@ -1,0 +1,17 @@
+{
+    "name": "domain",
+    "version": "1.0.0",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "scripts": {
+        "test": "echo test domain && exit 0",
+        "lint": "eslint **/*.ts",
+        "tsc": "tsc --noEmit"
+    },
+    "dependencies": {
+        "a": "*"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    }
+}
