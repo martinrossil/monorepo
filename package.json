@@ -1,23 +1,29 @@
 {
   "name": "monorepo",
   "version": "1.0.0",
-  "description": "Mono repo test with Turborepo support.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/martinrossil/monorepo.git"
-  },
-  "keywords": [
-    "monorepo",
-    "turborepo"
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
   ],
-  "author": "Martin Rossil",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/martinrossil/monorepo/issues"
+  
+  "scripts": {
+    "test": "npm run test -ws",
+    "lint": "npm run lint -ws",
+    "tsc": "npm run tsc -ws"
   },
-  "homepage": "https://github.com/martinrossil/monorepo#readme"
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.5.5",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+        "@typescript-eslint/parser": "^5.26.0",
+        "eslint": "^8.16.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.0",
+        "eslint-plugin-promise": "^6.0.0"
+  }
 }
