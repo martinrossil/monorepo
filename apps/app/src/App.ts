@@ -1,5 +1,5 @@
 import { IProduct } from 'a';
-import { Product } from 'domain';
+import { Product } from 'c';
 export default class App extends HTMLElement {
     public sku: number;
     public constructor() {
