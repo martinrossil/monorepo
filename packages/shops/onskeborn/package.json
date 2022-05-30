@@ -1,0 +1,17 @@
+{
+    "name": "@monorepo/onskeborn",
+    "version": "1.0.0",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "scripts": {
+        "test": "echo test domain && exit 0",
+        "lint": "echo -------onskeborn------ && eslint **/*.ts",
+        "tsc": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@monorepo/a": "*"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.4"
+    }
+}
