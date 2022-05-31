@@ -1,5 +1,5 @@
 {
-    "name": "app2",
+    "name": "@monorepo/app2",
     "version": "1.0.0",
     "private": true,
     "scripts": {
@@ -9,9 +9,9 @@
         "build": "echo build app2 && exit 0"
     },
     "dependencies": {
-        "c": "*",
-        "a": "*",
-        "b": "*"
+        "@monorepo/c": "*",
+        "@monorepo/a": "*",
+        "@monorepo/b": "*"
     },
     "devDependencies": {
         "typescript": "^4.6.4"

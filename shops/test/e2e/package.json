@@ -1,15 +1,17 @@
 {
-    "name": "@monorepo/a",
+    "name": "@monorepo/e2e",
     "version": "1.0.0",
     "main": "./index.ts",
     "types": "./index.ts",
     "scripts": {
-        "test": "echo test a && exit 0",
-        "lint": "eslint **/*.ts",
+        "test": "echo test e2e && exit 0",
+        "lint": "echo -------e2e------ && eslint **/*.ts",
         "tsc": "tsc --noEmit"
     },
+    "dependencies": {
+        
+    },
     "devDependencies": {
-        "@monorepo/b": "*",
         "typescript": "^4.6.4"
     }
 }
