@@ -5,7 +5,7 @@ export default class Component extends HTMLElement implements IComponent {
     public name: string;
     public constructor(sku: number, name: string) {
         super();
-        console.log('Component');
+        console.log('Component2');
         this.sku = sku;
         this.name = name;
     }
